@@ -1,0 +1,8 @@
+USE [LOJA]
+GO
+
+ALTER TABLE Vendas
+ADD Atendente CHAR (50)
+
+SELECT *
+FROM Vendas

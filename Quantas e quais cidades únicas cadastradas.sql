@@ -1,0 +1,5 @@
+SELECT  COUNT (DISTINCT City)
+FROM Person.Address
+
+SELECT  DISTINCT City
+FROM Person.Address

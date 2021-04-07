@@ -1,0 +1,8 @@
+USE [LOJA]
+GO
+
+DELETE FROM Vendas
+WHERE IDVenda = 1
+
+SELECT *
+FROM Vendas
